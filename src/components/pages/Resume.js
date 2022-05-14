@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div>
+    <div className="content-container">
       <h1>Resume</h1>
       <div>
         <h2>Overview</h2>
