@@ -1,8 +1,9 @@
 import React from "react";
+import '../../styles/Content.css'
 
 export default function About() {
   return (
-    <div>
+    <div className="content-container">
       <h1>About Me</h1>
       <p>
         I have experience in HTML, CSS, Javascript, Node.js, Express.js,
