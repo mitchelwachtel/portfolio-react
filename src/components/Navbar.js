@@ -1,8 +1,11 @@
 import React from 'react';
+import '../styles/Navbar.css'
 
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
+    <div className="nav-container">
+      <h2>Mitchel Wachtel</h2>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -43,6 +46,7 @@ function Navbar({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

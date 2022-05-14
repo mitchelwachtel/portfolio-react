@@ -1,16 +1,21 @@
-import React from 'react';
+import React from "react";
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I have experience in HTML, CSS, Javascript, Node.js, Express.js,
+        Handlebars.js, React.js, Mongo and MySQL. I'm currently in the Georgia
+        Tech Coding Bootcamp with plans to secure a job in front-end, back-end,
+        or full stack web development in June of 2022. As I have taught seniors
+        in AP Calculus the last several years, I have been inspired. I continue
+        to send brilliant students to study and pursue careers in multiple STEM
+        fields, and I want to follow them. That is why I’m in the GT coding
+        bootcamp while I finish this school year teaching. I want to apply my
+        logic and problem-solving abilities to create. I want to leverage my
+        passion for education in new avenues, including making myself a
+        life-long learner in the constantly changing tech world.
       </p>
     </div>
   );
