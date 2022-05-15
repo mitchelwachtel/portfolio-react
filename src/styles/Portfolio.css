@@ -1,0 +1,11 @@
+.container-sm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 40%;
+    margin: 20px 0px;
+}

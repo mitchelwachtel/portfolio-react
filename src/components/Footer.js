@@ -9,7 +9,7 @@ import instaPic from "../assets/images/insta.png";
 export default function Footer() {
   return (
     <footer class="footer-links">
-      <a href="https://github.com/mitchelwachtel" target="_blank">
+      <a href="https://github.com/mitchelwachtel" rel="noreferrer" target="_blank">
         <img
           className="linkPic"
           src={githubPic}
@@ -17,28 +17,28 @@ export default function Footer() {
         />
       </a>
 
-      <a href="https://www.linkedin.com/in/mitchelwachtel/" target="_blank">
+      <a href="https://www.linkedin.com/in/mitchelwachtel/" rel="noreferrer" target="_blank">
         <img
           className="linkPic"
           src={linkedinPic}
           alt="link to Mitchel Wachtel's LinkedIn Profile"
         />
       </a>
-      <a href="https://youtube.com/docwach" target="_blank">
+      <a href="https://youtube.com/docwach" rel="noreferrer" target="_blank">
         <img
           className="linkPic"
           src={youtubePic}
           alt="link to Mitchel Wachtel's Youtube Channel"
         />
       </a>
-      <a href="https://twitter.com/Mitchwach" target="_blank">
+      <a href="https://twitter.com/Mitchwach" rel="noreferrer" target="_blank">
         <img
           className="linkPic"
           src={twitterPic}
           alt="link to Mitchel Wachtel's Twitter Profile"
         />
       </a>
-      <a href="https://www.instagram.com/_docwach/" target="_blank">
+      <a href="https://www.instagram.com/_docwach/" rel="noreferrer" target="_blank">
         <img
           className="linkPic"
           src={instaPic}

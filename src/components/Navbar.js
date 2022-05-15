@@ -8,7 +8,7 @@ function Navbar({ currentPage, handlePageChange }) {
       <a href='#home' onClick={() => handlePageChange('Home')}>
       <h2>Mitchel Wachtel</h2>
       </a>
-    <ul className="nav nav-tabs">
+    <ul className="nav">
       <li className="nav-item">
         <a
           href="#about"
