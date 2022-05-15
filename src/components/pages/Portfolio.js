@@ -10,7 +10,7 @@ export default function Blog() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <div className="container-sm">
+      <div className="container-fluid">
         <div className="card">
           <img
             src={snode}
