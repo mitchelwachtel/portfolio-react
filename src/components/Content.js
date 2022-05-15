@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import Navbar from "./Navbar";
+import Banner from "./Banner";
+import Footer from "./Footer";
 import Resume from "./pages/Resume";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -9,6 +11,14 @@ export default function Content() {
   const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
+    if (currentPage === "Home") {
+      return (
+        <div>
+          <Banner />
+          <About />
+        </div>
+      );
+    }
     if (currentPage === "Contact") {
       return <Contact />;
     }
@@ -26,7 +36,9 @@ export default function Content() {
   return (
     <div>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+
       {renderPage()}
+      {/* <Footer /> */}
     </div>
   );
 }
