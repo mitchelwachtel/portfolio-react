@@ -10,175 +10,175 @@ export default function Blog() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <div class="container-sm">
-        <div class="card">
+      <div className="container-sm">
+        <div className="card">
           <img
             src={snode}
-            class="card-img-top"
+            className="card-img-top"
             alt="Code Snippet Sharing Web App"
           />
-          <div class="card-body">
-            <h5 class="card-title">Snode</h5>
-            <p class="card-text">Description of App & Technologies used</p>
+          <div className="card-body">
+            <h5 className="card-title">Snode</h5>
+            <p className="card-text">Description of App & Technologies used</p>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">
               <a
                 href="https://floating-shore-96827.herokuapp.com/"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Deployed App
               </a>
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <a
                 href="https://github.com/mitchelwachtel/snode"
-                class="card-link"
+                className="card-link"  rel="noreferrer" target="_blank"
               >
                 Github Repo
               </a>
             </li>
           </ul>
         </div>
-        <div class="card">
+        <div className="card">
           <img
             src={weather}
-            class="card-img-top"
+            className="card-img-top"
             alt="Weather Dashboard Web App"
           />
-          <div class="card-body">
-            <h5 class="card-title">Weather Dashboard</h5>
-            <p class="card-text">Description of App & Technologies used</p>
+          <div className="card-body">
+            <h5 className="card-title">Weather Dashboard</h5>
+            <p className="card-text">Description of App & Technologies used</p>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">
               <a
                 href="https://www.mitchelwachtel.me/weather-dashboard/"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Deployed App
               </a>
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <a
                 href="https://github.com/mitchelwachtel/weather-dashboard"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Github Repo
               </a>
             </li>
           </ul>
         </div>
-        <div class="card">
+        <div className="card">
           <img
             src={weather}
-            class="card-img-top"
+            className="card-img-top"
             alt="Weather Dashboard Web App"
           />
-          <div class="card-body">
-            <h5 class="card-title">Weather Dashboard</h5>
-            <p class="card-text">Description of App & Technologies used</p>
+          <div className="card-body">
+            <h5 className="card-title">Weather Dashboard</h5>
+            <p className="card-text">Description of App & Technologies used</p>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">
               <a
                 href="https://www.mitchelwachtel.me/weather-dashboard/"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Deployed App
               </a>
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <a
                 href="https://github.com/mitchelwachtel/weather-dashboard"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Github Repo
               </a>
             </li>
           </ul>
         </div>
-        <div class="card">
+        <div className="card">
           <img
             src={weather}
-            class="card-img-top"
+            className="card-img-top"
             alt="Weather Dashboard Web App"
           />
-          <div class="card-body">
-            <h5 class="card-title">Weather Dashboard</h5>
-            <p class="card-text">Description of App & Technologies used</p>
+          <div className="card-body">
+            <h5 className="card-title">Weather Dashboard</h5>
+            <p className="card-text">Description of App & Technologies used</p>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">
               <a
                 href="https://www.mitchelwachtel.me/weather-dashboard/"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Deployed App
               </a>
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <a
                 href="https://github.com/mitchelwachtel/weather-dashboard"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Github Repo
               </a>
             </li>
           </ul>
         </div>
-        <div class="card">
+        <div className="card">
           <img
             src={weather}
-            class="card-img-top"
+            className="card-img-top"
             alt="Weather Dashboard Web App"
           />
-          <div class="card-body">
-            <h5 class="card-title">Weather Dashboard</h5>
-            <p class="card-text">Description of App & Technologies used</p>
+          <div className="card-body">
+            <h5 className="card-title">Weather Dashboard</h5>
+            <p className="card-text">Description of App & Technologies used</p>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">
               <a
                 href="https://www.mitchelwachtel.me/weather-dashboard/"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Deployed App
               </a>
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <a
                 href="https://github.com/mitchelwachtel/weather-dashboard"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Github Repo
               </a>
             </li>
           </ul>
         </div>
-        <div class="card">
+        <div className="card">
           <img
             src={weather}
-            class="card-img-top"
+            className="card-img-top"
             alt="Weather Dashboard Web App"
           />
-          <div class="card-body">
-            <h5 class="card-title">Weather Dashboard</h5>
-            <p class="card-text">Description of App & Technologies used</p>
+          <div className="card-body">
+            <h5 className="card-title">Weather Dashboard</h5>
+            <p className="card-text">Description of App & Technologies used</p>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">
               <a
                 href="https://www.mitchelwachtel.me/weather-dashboard/"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Deployed App
               </a>
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <a
                 href="https://github.com/mitchelwachtel/weather-dashboard"
-                class="card-link"
+                className="card-link" rel="noreferrer" target="_blank"
               >
                 Github Repo
               </a>
