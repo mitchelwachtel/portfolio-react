@@ -1,0 +1,10 @@
+.footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+.linkPic {
+    height: 40px;
+    width: auto;
+    margin: 10px 15px;
+}

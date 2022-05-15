@@ -39,7 +39,7 @@ export default function Content() {
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
 
       {renderPage()}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
