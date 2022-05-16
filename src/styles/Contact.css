@@ -1,0 +1,19 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+
+}
+
+.form-item {
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.submit {
+    width: fit-content;
+    padding: 5px;
+}

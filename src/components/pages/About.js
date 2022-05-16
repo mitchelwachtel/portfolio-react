@@ -4,7 +4,12 @@ import React from "react";
 export default function About() {
   return (
     <div className="content-container">
-      <h1 className="page-title">About Me</h1>
+      <div className="row">
+        <div className="col-3">
+          <h1 className="page-title">About Me</h1>
+        </div>
+        <div className="col-9"></div>
+      </div>
       <p>
         I have experience in HTML, CSS, Javascript, Node.js, Express.js,
         Handlebars.js, React.js, Mongo and MySQL. I'm currently in the Georgia
