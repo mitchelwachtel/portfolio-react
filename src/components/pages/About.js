@@ -4,7 +4,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="content-container">
-      <h1>About Me</h1>
+      <h1 className="page-title">About Me</h1>
       <p>
         I have experience in HTML, CSS, Javascript, Node.js, Express.js,
         Handlebars.js, React.js, Mongo and MySQL. I'm currently in the Georgia

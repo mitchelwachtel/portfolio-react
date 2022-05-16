@@ -19,7 +19,8 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div className="content-container">
+      <h1 className="page-title">Contact</h1>
       <p>
         Hello {firstName} {lastName}
       </p>
