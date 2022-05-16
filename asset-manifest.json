@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.f6ac25b7.css",
+    "main.js": "/portfolio-react/static/js/main.432cec9c.js",
+    "static/media/food.png": "/portfolio-react/static/media/food.659b8611b7a3993313f9.png",
+    "static/media/DN9A8934.jpg": "/portfolio-react/static/media/DN9A8934.5591f870bbef32006874.jpg",
+    "static/media/lowUV.png": "/portfolio-react/static/media/lowUV.b64c6acfd47ad4fc10b2.png",
+    "static/media/question.png": "/portfolio-react/static/media/question.aa7dd6afeaf1cd840f1d.png",
+    "static/media/users.png": "/portfolio-react/static/media/users.b3fea2c42edb724cdabf.png",
+    "static/media/tech-blog.png": "/portfolio-react/static/media/tech-blog.022bb9c1f4016dfce942.png",
+    "static/media/snode.png": "/portfolio-react/static/media/snode.ce212677646bcd6f4480.png",
+    "static/media/insta.png": "/portfolio-react/static/media/insta.65c6ecaea9be31e8916b.png",
+    "static/media/gmail.png": "/portfolio-react/static/media/gmail.0a5f4db76d03fc334686.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.f6ac25b7.css.map": "/portfolio-react/static/css/main.f6ac25b7.css.map",
+    "main.432cec9c.js.map": "/portfolio-react/static/js/main.432cec9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6ac25b7.css",
+    "static/js/main.432cec9c.js"
+  ]
+}
