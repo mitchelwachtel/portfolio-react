@@ -10,11 +10,8 @@ import socialNet from "../../assets/images/users.png";
 export default function Blog() {
   return (
     <div className="content-container">
-      <div className="row">
-        <div className="col-3">
+      <div className="title-header">
           <h1 className="page-title">Portfolio</h1>
-        </div>
-        <div className="col-9"></div>
       </div>
       <div className="container-fluid">
         <div className="card">

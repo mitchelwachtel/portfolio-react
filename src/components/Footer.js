@@ -5,6 +5,7 @@ import youtubePic from "../assets/images/youtube.png";
 import linkedinPic from "../assets/images/linkedinB.jpeg";
 import twitterPic from "../assets/images/twitter.png";
 import instaPic from "../assets/images/insta.png";
+import gmailPic from "../assets/images/gmail.png";
 
 export default function Footer() {
   return (
@@ -22,6 +23,13 @@ export default function Footer() {
           className="linkPic"
           src={linkedinPic}
           alt="link to Mitchel Wachtel's LinkedIn Profile"
+        />
+      </a>
+      <a href="mailto:mitchel.wachtel@gmail.com" rel="noreferrer" target="_blank">
+        <img
+          className="linkPic"
+          src={gmailPic}
+          alt="link to Mitchel Wachtel's Email"
         />
       </a>
       <a href="https://youtube.com/docwach" rel="noreferrer" target="_blank">

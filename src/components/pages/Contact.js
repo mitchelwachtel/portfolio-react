@@ -31,11 +31,9 @@ export default function Contact() {
 
   return (
     <div className="content-container">
-      <div className="row">
-        <div className="col-3">
+      <div className="title-header">
           <h1 className="page-title">Contact</h1>
-        </div>
-        <div className="col-9"></div>
+          <h2>mitchel.wachtel@gmail.com</h2>
       </div>
 
       <form className="form">
