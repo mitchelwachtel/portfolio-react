@@ -1,14 +1,23 @@
+/* VARIABLES */
+/* Color choices are based on the banner pic using app "Sip" */
+:root {
+    --dark-header-footer-background: #1a1c29;
+    --light-main-background-color: #cab4a5;
+    --pop-of-color: #741e27;
+  }
+  
+  /* UNIVERSAL */
+  *, body {
+    background-color: var(--light-main-background-color);
+  }
+
+
 .content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10px;
     margin: 0px 40px;
-}
-
-.col-3 {
-    display: flex;
-    justify-content: flex-end;
 }
 
 .section-title {
@@ -28,6 +37,9 @@
     justify-content: center;
     align-items: flex-start;
     height: 60px;
-    border: 2px solid red;
+}
+
+p {
+    font-size: 18px;
 }
 
