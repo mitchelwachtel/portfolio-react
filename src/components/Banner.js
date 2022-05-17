@@ -4,7 +4,7 @@ import bannerPic from '../assets/images/DN9A8934.jpg'
 
 export default function Banner() {
   return (
-    <div class="banner-pic">
+    <div className="banner-pic">
       <img
         src={bannerPic}
         alt="Mitchel Wachtel with his wife and child"

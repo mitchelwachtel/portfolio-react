@@ -8,6 +8,7 @@
 
 .nav {
     margin: 0px 30px;
+    background-color: var(--dark-header-footer-background);
 }
 
 .nav-item {

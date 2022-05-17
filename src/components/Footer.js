@@ -9,7 +9,7 @@ import gmailPic from "../assets/images/gmail.png";
 
 export default function Footer() {
   return (
-    <footer class="footer-links">
+    <footer className="footer-links">
       <a href="https://github.com/mitchelwachtel" rel="noreferrer" target="_blank">
         <img
           className="linkPic"

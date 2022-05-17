@@ -5,7 +5,7 @@ import "../../styles/About.css";
 const aboutMe = (
   <p>
     I have experience in HTML, CSS, Javascript, Node.js, Express.js,
-    Handlebars.js, React.js, Mongo and MySQL. I'm currently in the Georgia Tech
+    Handlebars.js, React.js, Mongo, GraphQL, and MySQL. I'm currently in the Georgia Tech
     Coding Bootcamp with plans to secure a job in front-end, back-end, or full
     stack web development in June of 2022. As I have taught seniors in AP
     Calculus the last several years, I have been inspired. I continue to send
@@ -32,7 +32,7 @@ function About({currentPage}) {
           </div>
           <div className="col-6 img-div">
             <img
-              className="proPic"
+              className="famPic2"
               src={fam2}
               alt="Professional Mitchel Wachtel"
             />

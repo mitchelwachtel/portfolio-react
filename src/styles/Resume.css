@@ -4,6 +4,17 @@
 }
 
 .proPic {
-    width: 50%;
+    width: 80%;
     height: fit-content;
+}
+
+.dl-btn {
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid var(--dark-header-footer-background);
+}
+
+.section ul li {
+    margin-top: 3px;
 }

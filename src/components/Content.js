@@ -35,10 +35,12 @@ export default function Content() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="page-container">
+      <div className="content-wrapper">
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
 
       {renderPage()}
+      </div>
       <Footer />
     </div>
   );
