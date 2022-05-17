@@ -75,7 +75,7 @@ export default function Resume() {
           <img
             className="proPic"
             src={pro1}
-            alt="Professional picture of Mitchel Wachtel"
+            alt="Professional Mitchel Wachtel"
           />
         </div>
       </div>

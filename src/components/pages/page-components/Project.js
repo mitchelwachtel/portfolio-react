@@ -1,10 +1,4 @@
 import "../../../styles/Portfolio.css";
-import weather from "../../../assets/images/lowUV.png";
-import techBlog from "../../../assets/images/tech-blog.png";
-import snode from "../../../assets/images/snode.png";
-import guru from "../../../assets/images/food.png";
-import code from "../../../assets/images/question.png";
-import socialNet from "../../../assets/images/users.png";
 
 
 export default function Project({
