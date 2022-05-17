@@ -4,6 +4,9 @@ import snode from "../../../assets/images/snode.png";
 import guru from "../../../assets/images/food.png";
 import code from "../../../assets/images/question.png";
 import socialNet from "../../../assets/images/users.png";
+import newEmp from "../../../assets/images/newEmp.png";
+import port from "../../../assets/images/DN9A8934.jpg";
+
 
 const projects = [
   {
@@ -66,6 +69,26 @@ const projects = [
     repoLink: "https://github.com/mitchelwachtel/code-quiz",
     img: code,
     id: 5
+  },
+  {
+    title: "Employee Management System",
+    description: "This app is to be used to interact with your company's employee database. You have a table for your employees, departments, and roles. This app will allow you to view, add, update, and delete your employees, roles, and departments. Further, you can use this app to see the total salaries that have been committed for each department.",
+    tech: "Technologies: mySQL, node.js, npm, dependencies: 'inquirer', 'cTable', & 'mysql2'",
+    isDeployed: false,
+    deployLink: "https://www.youtube.com/watch?v=7vLTmNt3d5w",
+    repoLink: "https://github.com/mitchelwachtel/employee-management-system",
+    img: newEmp,
+    id: 6
+  },
+  {
+    title: "Portfolio",
+    description: "This original portfolio was built with just HTML and CSS. The current portfolio you are viewing is created with JS, React, Bootstrap, and other technologies",
+    tech: "Technologies: HTML and CSS",
+    isDeployed: true,
+    deployLink: "https://www.mitchelwachtel.me/portfolio",
+    repoLink: "https://github.com/mitchelwachtel/portfolio",
+    img: port,
+    id: 7
   },
 ];
 
