@@ -6,6 +6,8 @@ import snode from "../../assets/images/snode.png";
 import guru from "../../assets/images/food.png";
 import code from "../../assets/images/question.png";
 import socialNet from "../../assets/images/users.png";
+import projects from "./page-components/project-list";
+import Project from "./page-components/Project.js";
 
 export default function Portfolio() {
   return (
@@ -14,7 +16,25 @@ export default function Portfolio() {
         <h1 className="page-title">Projects & Work Samples</h1>
       </div>
       <div className="container-fluid">
-        <div className="card">
+        {projects.map((proj) => (
+          <Project
+            title={proj.title}
+            description={proj.description}
+            tech={proj.tech}
+            isDeployed={proj.isDeployed}
+            repoLink={proj.repoLink}
+            deployLink={proj.deployLink}
+            img={proj.img}
+            key={proj.id}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+{
+  /* <div className="card">
           <a
             href="https://floating-shore-96827.herokuapp.com/"
             className="card-link"
@@ -26,7 +46,7 @@ export default function Portfolio() {
               src={snode}
               className="card-img-top"
               alt="Code Snippet Sharing Web App"
-            />{" "}
+            />
           </a>
           <div className="card-body">
             <h5 className="card-title">Snode</h5>
@@ -75,7 +95,7 @@ export default function Portfolio() {
               src={guru}
               className="card-img-top"
               alt="Gourmet Guru Web App"
-            />{" "}
+            />
           </a>
           <div className="card-body">
             <h5 className="card-title">Gourmet Guru</h5>
@@ -298,8 +318,5 @@ export default function Portfolio() {
               </a>
             </li>
           </ul>
-        </div>
-      </div>
-    </div>
-  );
+        </div> */
 }
