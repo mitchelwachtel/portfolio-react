@@ -6,7 +6,7 @@ import Resume from "./pages/Resume";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import '../styles/Content.css'
+import "../styles/Content.css";
 
 export default function Content() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -16,7 +16,7 @@ export default function Content() {
       return (
         <div>
           <Banner />
-          <About />
+          <About currentPage={currentPage} />
         </div>
       );
     }
@@ -29,7 +29,7 @@ export default function Content() {
     if (currentPage === "Resume") {
       return <Resume />;
     }
-    return <About />;
+      return <About currentPage={currentPage} />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

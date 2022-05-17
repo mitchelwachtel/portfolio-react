@@ -28,6 +28,7 @@
 .page-title {
     font-size: 30px;
     font-weight: 900;
+    color: var(--pop-of-color);
 
 }
 
@@ -42,4 +43,6 @@
 p {
     font-size: 18px;
 }
+
+
 
