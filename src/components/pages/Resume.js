@@ -1,12 +1,17 @@
 import React from "react";
+import pro1 from "../../assets/images/pro1.jpg";
+import "../../styles/Resume.css";
 
 export default function Resume() {
   return (
-    <div className="content-container">
+    <div className="content-container container">
       <div className="title-header">
           <h1 className="page-title">Resume</h1>
       </div>
+      <div className="row">
+        <div className="col-6">
       <div className="section">
+        
         <h2 className="section-title">Overview</h2>
         <ul>
           <li>Successful math teacher turned developer</li>
@@ -55,6 +60,15 @@ export default function Resume() {
             GA Math League and MGA hosted Math Olympics and Puzzle Competition.
           </li>
         </ul>
+      </div>
+      </div>
+      <div className="col-6 img-div">
+      <img
+          className="proPic"
+          src={pro1}
+          alt="Professional picture of Mitchel Wachtel"
+        />
+      </div>
       </div>
     </div>
   );

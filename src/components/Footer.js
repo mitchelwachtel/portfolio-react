@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Footer.css";
 import githubPic from "../assets/images/github.png";
 import youtubePic from "../assets/images/youtube.png";
-import linkedinPic from "../assets/images/linkedinB.jpeg";
+import linkedinPic from "../assets/images/linkedinC.png";
 import twitterPic from "../assets/images/twitter.png";
 import instaPic from "../assets/images/insta.png";
 import gmailPic from "../assets/images/gmail.png";

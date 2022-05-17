@@ -1,0 +1,9 @@
+.img-div {
+    display: flex;
+    justify-content: center;
+}
+
+.proPic {
+    width: 50%;
+    height: fit-content;
+}
