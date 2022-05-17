@@ -7,19 +7,27 @@ import guru from "../../assets/images/food.png";
 import code from "../../assets/images/question.png";
 import socialNet from "../../assets/images/users.png";
 
-export default function Blog() {
+export default function Portfolio() {
   return (
     <div className="content-container">
       <div className="title-header">
-          <h1 className="page-title">Portfolio</h1>
+        <h1 className="page-title">Portfolio</h1>
       </div>
       <div className="container-fluid">
         <div className="card">
-          <img
-            src={snode}
-            className="card-img-top"
-            alt="Code Snippet Sharing Web App"
-          />
+          <a
+            href="https://floating-shore-96827.herokuapp.com/"
+            className="card-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {" "}
+            <img
+              src={snode}
+              className="card-img-top"
+              alt="Code Snippet Sharing Web App"
+            />{" "}
+          </a>
           <div className="card-body">
             <h5 className="card-title">Snode</h5>
             <p className="card-text">
@@ -57,7 +65,18 @@ export default function Blog() {
           </ul>
         </div>
         <div className="card">
-          <img src={guru} className="card-img-top" alt="Gourmet Guru Web App" />
+          <a
+            href="https://www.mitchelwachtel.me/gourmet-guru/"
+            className="card-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src={guru}
+              className="card-img-top"
+              alt="Gourmet Guru Web App"
+            />{" "}
+          </a>
           <div className="card-body">
             <h5 className="card-title">Gourmet Guru</h5>
             <p className="card-text">
@@ -94,11 +113,18 @@ export default function Blog() {
           </ul>
         </div>
         <div className="card">
-          <img
-            src={techBlog}
-            className="card-img-top"
-            alt="Tech Blog Web App"
-          />
+          <a
+            href="https://boiling-ravine-98433.herokuapp.com/"
+            className="card-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src={techBlog}
+              className="card-img-top"
+              alt="Tech Blog Web App"
+            />
+          </a>
           <div className="card-body">
             <h5 className="card-title">Tech Blog</h5>
             <p className="card-text">
@@ -135,11 +161,18 @@ export default function Blog() {
           </ul>
         </div>
         <div className="card">
-          <img
-            src={weather}
-            className="card-img-top"
-            alt="Weather Dashboard Web App"
-          />
+          <a
+            href="https://www.mitchelwachtel.me/weather-dashboard/"
+            className="card-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src={weather}
+              className="card-img-top"
+              alt="Weather Dashboard Web App"
+            />
+          </a>
           <div className="card-body">
             <h5 className="card-title">Weather Dashboard</h5>
             <p className="card-text">
@@ -175,11 +208,18 @@ export default function Blog() {
           </ul>
         </div>
         <div className="card">
-          <img
-            src={socialNet}
-            className="card-img-top"
-            alt="Code Quiz Web App"
-          />
+          <a
+            href="https://youtu.be/2cX3MZx2oxM"
+            className="card-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src={socialNet}
+              className="card-img-top"
+              alt="Code Quiz Web App"
+            />
+          </a>
           <div className="card-body">
             <h5 className="card-title">Social Network API</h5>
             <p className="card-text">
@@ -219,7 +259,14 @@ export default function Blog() {
           </ul>
         </div>
         <div className="card">
-          <img src={code} className="card-img-top" alt="Code Quiz Web App" />
+          <a
+            href="https://www.mitchelwachtel.me/code-quiz"
+            className="card-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={code} className="card-img-top" alt="Code Quiz Web App" />
+          </a>
           <div className="card-body">
             <h5 className="card-title">Code Quiz</h5>
             <p className="card-text">
