@@ -7,6 +7,29 @@
 
 }
 
+.content-container .contact-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.content-container .contact-header .linkPic {
+    height: 40px;
+    width: auto;
+}
+
+.content-container .contact-header .contact-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
 .form-item {
     width: 50%;
     margin: 5px;

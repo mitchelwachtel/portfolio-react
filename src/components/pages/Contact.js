@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "../../styles/Contact.css";
+import gmailPic from "../../assets/images/gmail.png";
 
 export default function Contact() {
   const [username, setUsername] = useState("");
@@ -31,9 +32,26 @@ export default function Contact() {
 
   return (
     <div className="content-container">
-      <div className="title-header">
+      <div className="contact-header">
+        <div className="contact-top">
           <h1 className="page-title">Contact</h1>
+          <a
+            href="mailto:mitchel.wachtel@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              className="linkPic"
+              src={gmailPic}
+              alt="link to Mitchel Wachtel's Email"
+            />
+          </a>
+          </div>
           <h2>mitchel.wachtel@gmail.com</h2>
+        
+        <div>
+          
+        </div>
       </div>
 
       <form className="form">
@@ -62,7 +80,11 @@ export default function Contact() {
           placeholder="Message"
           rows="5"
         />
-        <button className="form-item submit" type="button" onClick={handleFormSubmit}>
+        <button
+          className="form-item submit"
+          type="button"
+          onClick={handleFormSubmit}
+        >
           Submit
         </button>
       </form>
