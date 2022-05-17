@@ -41,6 +41,35 @@ export default function Resume() {
               <li>Life-long learner with a strong work ethic</li>
             </ul>
           </div>
+          <div className="section">
+            <h2 className="section-title">Skills</h2>
+            <ul>
+              <li>Teaching & Explaining</li>
+              <li>
+              Team Collaboration & Leadership
+              </li>
+              <li>
+              VS Code
+              </li>
+              <li>
+              HTML, CSS, Bootstrap
+              </li>
+              <li>Javascript & jQuery</li>
+              <li>
+              React.js & Handlebars.js
+              </li>
+              <li>REST APIs & GraphQL</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>PWAs</li>
+              <li>MySQL & Sequelize</li>
+              <li>MongoDB, Compass, Mongoose</li>
+              <li>Git & Github</li>
+              <li>Slack</li>
+              <li>Insomnia</li>
+              <li>Google Drive/Docs/Slides/Sheets</li>
+            </ul>
+          </div>
         </div>
         <div className="col-6 img-div">
           <img
