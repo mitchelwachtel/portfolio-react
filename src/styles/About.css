@@ -7,3 +7,11 @@
     width: 100%;
     height: fit-content;
 }
+
+.col-6 p {
+    line-height: normal;
+}
+
+.col p {
+    line-height: normal;
+}

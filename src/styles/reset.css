@@ -34,3 +34,7 @@
     text-decoration: none; 
     color: var(--dark-header-footer-background);
   }
+
+  .nav-item .active {
+    color: var(--light-main-background-color);
+  }

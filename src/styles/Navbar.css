@@ -20,6 +20,8 @@
     color: var(--light-main-background-color);
     background-color: var(--dark-header-footer-background);
     font-size: 20px;
+    padding: 10px;
+    margin: 0px 5px;
 }
 
 .nav-container a h2 {
@@ -37,4 +39,18 @@
 .nav-container a {
     color: var(--light-main-background-color);
     background-color: var(--dark-header-footer-background);
+}
+
+.nav-container .nav .nav-item a:hover {
+    border: 2px solid var(--pop-of-color);
+    border-radius: 7px;
+    color: var(--light-main-background-color);
+    padding: 8px;
+  }
+
+.nav-item .active {
+    border: 2px solid var(--pop-of-color);
+    border-radius: 7px;
+    color: var(--light-main-background-color);
+    padding: 8px;
 }
