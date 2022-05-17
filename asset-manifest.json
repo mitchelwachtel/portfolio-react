@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.a1f2e64d.css",
-    "main.js": "/portfolio-react/static/js/main.3bbdee7c.js",
+    "main.js": "/portfolio-react/static/js/main.02e02067.js",
     "static/media/food.png": "/portfolio-react/static/media/food.659b8611b7a3993313f9.png",
     "static/media/DN9A8934.jpg": "/portfolio-react/static/media/DN9A8934.5591f870bbef32006874.jpg",
     "static/media/lowUV.png": "/portfolio-react/static/media/lowUV.b64c6acfd47ad4fc10b2.png",
@@ -11,6 +11,7 @@
     "static/media/pro2.jpg": "/portfolio-react/static/media/pro2.168d2e93ebfeea7374b0.jpg",
     "static/media/tech-blog.png": "/portfolio-react/static/media/tech-blog.022bb9c1f4016dfce942.png",
     "static/media/snode.png": "/portfolio-react/static/media/snode.ce212677646bcd6f4480.png",
+    "static/media/newEmp.png": "/portfolio-react/static/media/newEmp.81d27492d0e4052ab334.png",
     "static/media/MitchelWachtelEx.pdf": "/portfolio-react/static/media/MitchelWachtelEx.8961e8ef11513ebb39ce.pdf",
     "static/media/fam2.jpeg": "/portfolio-react/static/media/fam2.cbcf8eb18847346d278d.jpeg",
     "static/media/insta.png": "/portfolio-react/static/media/insta.b5a8baad084ce6a94cbc.png",
@@ -19,10 +20,10 @@
     "static/media/youtube.png": "/portfolio-react/static/media/youtube.934b3911499a42763456.png",
     "index.html": "/portfolio-react/index.html",
     "main.a1f2e64d.css.map": "/portfolio-react/static/css/main.a1f2e64d.css.map",
-    "main.3bbdee7c.js.map": "/portfolio-react/static/js/main.3bbdee7c.js.map"
+    "main.02e02067.js.map": "/portfolio-react/static/js/main.02e02067.js.map"
   },
   "entrypoints": [
     "static/css/main.a1f2e64d.css",
-    "static/js/main.3bbdee7c.js"
+    "static/js/main.02e02067.js"
   ]
 }
