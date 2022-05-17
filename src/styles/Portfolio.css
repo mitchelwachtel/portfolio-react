@@ -11,6 +11,13 @@
     
 }
 
+.content-container .portfolio-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
 .content-container .card {
     border: 2px solid var(--dark-header-footer-background);
     background-color: var(--light-main-background-color);

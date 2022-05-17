@@ -10,8 +10,8 @@ import socialNet from "../../assets/images/users.png";
 export default function Portfolio() {
   return (
     <div className="content-container">
-      <div className="title-header">
-        <h1 className="page-title">Portfolio</h1>
+      <div className="portfolio-header">
+        <h1 className="page-title">Projects & Work Samples</h1>
       </div>
       <div className="container-fluid">
         <div className="card">
