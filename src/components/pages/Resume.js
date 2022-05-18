@@ -1,7 +1,7 @@
 import React from "react";
 import pro1 from "../../assets/images/pro1.jpg";
 import "../../styles/Resume.css";
-import resume from "../../assets/files/MitchelWachtelEx.pdf";
+import resume from "../../assets/files/MitchelWachtelResumeMay18.pdf";
 
 export default function Resume() {
   return (
@@ -45,19 +45,11 @@ export default function Resume() {
             <h2 className="section-title">Skills</h2>
             <ul>
               <li>Teaching & Explaining</li>
-              <li>
-              Team Collaboration & Leadership
-              </li>
-              <li>
-              VS Code
-              </li>
-              <li>
-              HTML, CSS, Bootstrap
-              </li>
+              <li>Team Collaboration & Leadership</li>
+              <li>VS Code</li>
+              <li>HTML, CSS, Bootstrap</li>
               <li>Javascript & jQuery</li>
-              <li>
-              React.js & Handlebars.js
-              </li>
+              <li>React.js & Handlebars.js</li>
               <li>REST APIs & GraphQL</li>
               <li>Node.js</li>
               <li>Express.js</li>
