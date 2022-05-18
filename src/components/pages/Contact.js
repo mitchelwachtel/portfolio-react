@@ -2,11 +2,16 @@ import React, {useState} from "react";
 import "../../styles/Contact.css";
 import gmailPic from "../../assets/images/gmail.png";
 import proPic from "../../assets/images/pro2.jpg";
+// import validate from "../utils/formValidation";
+// import useForm from "../utils/useForm";
 
 export default function Contact() {
   const [username, setUsername] = useState("");
-  const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [email, setEmail] = useState("");
+  const [usernameErr, setUsernameErr] = useState("");
+  const [messageErr, setMessageErr] = useState("");
+  const [emailErr, setEmailErr] = useState("");
 
   const handleInputChange = (e) => {
     const {name, value} = e.target;
@@ -18,6 +23,36 @@ export default function Contact() {
     } else if (name === "message") {
       setMessage(value);
     }
+  };
+
+  const validateEmail = () => {
+    console.log("hey");
+    const re = /^([a-z0-9_.-]+)@([\da-z.-]+)\.([a-z.]{2,6})$/;
+    let err = "";
+    if (!email) {
+      err = "Email address is required";
+    } else if (!re.test(email)) {
+      err = "Email address is invalid";
+    }
+    setEmailErr(err);
+  };
+
+  const validateUsername = () => {
+    console.log("hey2");
+    let err = "";
+    if (!username) {
+      err = "Your name is required!";
+    }
+    setUsernameErr(err);
+  };
+
+  const validateMessage = () => {
+    console.log("hey2");
+    let err = "";
+    if (!message) {
+      err = "A message is required!";
+    }
+    setMessageErr(err);
   };
 
   const handleFormSubmit = (e) => {
@@ -34,11 +69,11 @@ export default function Contact() {
   return (
     <div className="content-container container">
       <div className="row">
-      <div className="col-6 img-div">
+        <div className="col-6 img-div">
           <img
             className="proPic"
             src={proPic}
-            alt="Professional picture of Mitchel Wachtel"
+            alt="Professional Mitchel Wachtel"
           />
         </div>
         <div className="col-6">
@@ -66,26 +101,35 @@ export default function Contact() {
               value={username}
               name="username"
               onChange={handleInputChange}
+              onBlur={validateUsername}
               type="text"
               placeholder="Name"
+              required
             />
+            <div className="err">{usernameErr}</div>
             <input
               className="form-item shadow-none"
               value={email}
               name="email"
               onChange={handleInputChange}
+              onBlur={validateEmail}
               type="email"
               placeholder="Email"
+              required
             />
+            <div className="err">{emailErr}</div>
             <textarea
               className="form-item shadow-none"
               value={message}
               name="message"
               onChange={handleInputChange}
+              onBlur={validateMessage}
               type="text"
               placeholder="Message"
               rows="5"
+              required
             />
+            <div className="err">{messageErr}</div>
             <button
               className="form-item submit "
               type="button"
