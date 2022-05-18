@@ -92,7 +92,7 @@ export default function Contact() {
                 />
               </a>
             </div>
-            <h2>mitchel.wachtel@gmail.com</h2>
+            <h2 className="mw-email">mitchel.wachtel@gmail.com</h2>
           </div>
 
           <form className="form">

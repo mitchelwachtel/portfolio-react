@@ -36,10 +36,20 @@
     padding: 7px;
     border-radius: 5px;
     border: 1px solid var(--dark-header-footer-background);
+    background-color: var(--light-main-background-color);
 }
 
 .form .form-item:focus {
     box-shadow: inset 0 -1px 0 #ddd;
+    border: 1px solid var(--dark-header-footer-background);
+}
+
+.err {
+    color: var(--pop-of-color);
+}
+
+.mw-email {
+    font-weight: 900;
 }
 
 .submit {
