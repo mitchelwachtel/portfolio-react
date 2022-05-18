@@ -8,7 +8,7 @@
 
 ### Description
 
-
+This is a single page APP portfolio for Mitchel Wachtel built using ReactJS. When the user loads the site, they are presented with the homepage, that displays the 'About Me' information along with a beautiful banner photo. The NavBar and Footer will present themselves on each screen. The NavBar has buttons for "About Me", "Contact", "Portfolio", and "Resume". The Footer has icons that allow the user to go to Mitchel Wachtel's Github, LinkedIn, Youtube, Instagram, and Email. When the user clicks on a NavBar icon, it remains selected at the top. The Portfolio screen has several projects with a screenshot & links to their deployment and github repo. The Resume section has a summary and a link to download the Resume. The Contact screeen has inputs for Name, Email, and Message that validate the input.
 
 ---
 
